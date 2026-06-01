@@ -139,7 +139,7 @@ Despues opimimos la tecla *enter*.
 
 Tambien podemos usar texto multitarea
 
-ejemplo :
+Ejemplo :
 
 > - descargar el archivo instalado desde la pagina oficial www.mysql.com
 > - instalar el servidor de base de datos
@@ -148,4 +148,28 @@ ejemplo :
 > - conectarnos a la base de datos para verificar que se instalo corectamente
 
 - Bloques de codigo
+
+Es comun que en la documentacion del proyecto de software demos eal usuario un par de instruccioones de como instalar, configurar, desplegar y testear(purebas), nuestro producto desarrollado . Por tal motivo el estándar markdown nos permite enfatizar estas instrucciones, simulando estar en una terminal de sitema operativo, para delimitar este codigo basta encerrarlo en triples caractewres de bacltic (acento o tilde inversa ``` ` ```)
+
+Ejemplo: 
+
+Para clonar el proyecto ingresa la siguiente instrucción 
+C:\Users\PC-04\Desktop>git clone https://github.com/250683-less/int1-Practica1_250683
+
+A diferencias de los bloques de citas, la tipografia y asociado cambian.
+
+### 7. Tablas
+
+En caso de que necesitemos estructurar datoso informacion relevante para la documentación podremos utilizar el formato de tablas, para lo que tenemos que considerar la estructura base de una tabla:
+
+- Usa | para delimitar columnas
+- usa --- para separar las filas del encabezado
+
+Ejemplo:
+
+|Título 1 |Título 2 | Título 3 |Título 4 |
+|---|---|---|---|
+|Fila 1, Celda 1 |Fila 1, Celda 2 |Fila 1, Celda 3 |Fila 1, Celda 4 |
+|Fila 2, Celda 1 |Fila 2, Celda 2 |Fila 2, Celda 3 |Fila 2, Celda 4 |
+|Fila 3, Celda 1 |Fila 3, Celda 2 |Fila 3, Celda 3 |Fila 3, Celda 4 |
 
