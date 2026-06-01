@@ -168,8 +168,26 @@ En caso de que necesitemos estructurar datoso informacion relevante para la docu
 Ejemplo:
 
 |Título 1 |Título 2 | Título 3 |Título 4 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 |Fila 1, Celda 1 |Fila 1, Celda 2 |Fila 1, Celda 3 |Fila 1, Celda 4 |
 |Fila 2, Celda 1 |Fila 2, Celda 2 |Fila 2, Celda 3 |Fila 2, Celda 4 |
 |Fila 3, Celda 1 |Fila 3, Celda 2 |Fila 3, Celda 3 |Fila 3, Celda 4 |
+
+### 8. Hipervínculos (Links)
+
+Para poder hacer referencias a documentos internos o externos dentro del repositorio, debemos respetar la siguiente estructura
+
+```
+[Texto que el usuario leera](url a donde te dirigirá) "texto que aparecerá cuando pongas el cursor sobre la liga"
+```
+Ejemplo:
+
+-Ligas externas
+
+[Google](http://google.com)
+
+-Ligas internas
+
+[Acerca del tutor](./aboutme.md "Conoceme más!")
+
 
