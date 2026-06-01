@@ -190,4 +190,50 @@ Ejemplo:
 
 [Acerca del tutor](./aboutme.md "Conoceme más!")
 
+### 9. Imágenes
+
+El estandar de markdown nos permite incrustar imagenes dentro de nuestra documentacion lo que nos permitirá poner logotipos, capturas de pantalla o cualquier archivo grafico importante.
+
+La estructura varia un poco de las referencias de hipervinculos, siendo:
+
+```
+![Texto que el usuario leera](url a donde se encuentra la imagen)
+```
+
+Ejemplo: 
+
+![gatointeligente](./imagenes/image.png)
+
+Es importante comprender que la resolución de la imagen sera la original del archivo.
+ 
+
+**Tip PRO**
+Si el tamaño de la imagen no se ajusta a lo que deseas para tu documento, llo más recomendable es ajustar el tamaño del archivo con algun software procesador de imágenes como : Paint, Illustrator, Ink o Photoshop. pero si quiere modificarlo desde el código, el estandar no tiene parametros definidos por lo que necesitaremos echar lineas de codigo HTML
+
+Cambiando la estructura de maquetado por la etiqueta ``` <img> ```
+
+Ejemplo: 
+
+<img src= "./imagenes/image.png" width="100" heigth="50">
+
+### 10. Nota al pie
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Si nuestra documentación requiere ubicar notas de importancia o relevancia posterior podemos usar notas al pie de manera dinámica
+
+Nota al pie 1 [^first].
+
+Nota al pie 2 [^second].
+
+Referencias al pie dentro de un parrafo ^[Nota interna] extenso dentro de nuestra documentacion 
+
+Segunda referencia a la nota 2[^second].
+[^first]: Nota al pie **puede ser formateada**
+
+    y tener multiples líneas de párrafo
+
+[^second]: Texto de la segunda nota al pie.
+
+
 
