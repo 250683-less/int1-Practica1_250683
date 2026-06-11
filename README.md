@@ -242,13 +242,12 @@ Segunda referencia a la nota 2[^second].
 
 Las abreviaturas permiten mostrar el significado completo de términos o siglas cuando el lector pasa el cursor sobre ellas.
 
-Este es un ejemplo utilizando la abreviatura HTML dentro de la documentación.
+Este es un ejemplo de abreviaturas en HTML.
 
-HTML es el lenguaje estándar para crear páginas web.
-
-También se mantienen intactas coincidencias parciales como `xxxHTMLyyy`.
+Convierte "HTML", pero mantiene intactas coincidencias parciales como "xxxHTMLyyy".
 
 *[HTML]: Hyper Text Markup Language
+
 
 ### 12. Contenedores personalizados
 
@@ -256,9 +255,8 @@ También se mantienen intactas coincidencias parciales como `xxxHTMLyyy`.
 
 Los contenedores personalizados permiten destacar información importante dentro de la documentación mediante bloques visuales.
 
-::: warning
-*here be dragons*
-:::
 
-
+> **⚠️ Advertencia**
+>
+> *Aquí hay dragones.*
 
